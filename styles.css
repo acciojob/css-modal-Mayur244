@@ -1,1 +1,46 @@
 /*  your css code here. If applicable */
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;	
+}
+
+button {
+	cursor: pointer;
+	padding: 2px 6px;
+}
+
+.modal {
+	display: flex;
+	justify-content: center;
+	/* align-items: center; */
+	margin-top: 30px;
+	height: 100vh;
+}
+
+.modal-body {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	padding: 8px;
+}
+
+.modal-header {
+	background-color: green;
+	width: 100%;
+	padding: 8px;
+	font-size: 14px;
+	color: white;
+}
+.modal-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	background-color: white;
+	padding: 10px;
+	margin-top: 10px;
+	width: 90%;
+	height: 120px;
+}
